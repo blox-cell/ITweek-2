@@ -24,5 +24,6 @@ Er is geen server nodig. De website werkt direct.
 | Bestand | Beschrijving |
 |---------|-------------|
 | `index.html` | De hoofdpagina |
+| `projecten.html` | De projectenpagina met alle projecten en filters |
 | `style.css` | Opmaak en stijl |
 | `script.js` | Interactiviteit en functies |
