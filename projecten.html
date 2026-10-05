@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projecten - Mijn Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html#home" class="logo">Portfolio</a>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">Over Mij</a></li>
+                <li><a href="projecten.html">Projecten</a></li>
+                <li><a href="index.html#skills">Vaardigheden</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="projects" class="section section-dark">
+        <div class="container">
+            <nav class="breadcrumb" aria-label="Kruimelpad">
+                <a href="index.html#home">Home</a>
+                <span class="breadcrumb-separator">/</span>
+                <span class="breadcrumb-current" aria-current="page">Projecten</span>
+            </nav>
+
+            <h1 class="page-title">Projecten</h1>
+            <p class="page-intro">Een overzicht van de projecten waaraan ik heb gewerkt.
+            Klik op een filter om te zien welke projecten bij een categorie horen.</p>
+
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">Alle</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">App</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder">&#128187;</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce Website</h3>
+                        <p>Een volledig werkende webshop gebouwd met HTML, CSS en JavaScript.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="app">
+                    <div class="project-image">
+                        <div class="project-placeholder">&#128241;</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Todo App</h3>
+                        <p>Een simpele takenlijst applicatie met lokale opslag.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">LocalStorage</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder">&#128202;</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Dashboard</h3>
+                        <p>Een data dashboard met real-time grafieken en statistieken.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Chart.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="app">
+                    <div class="project-image">
+                        <div class="project-placeholder">&#9729;&#65039;</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather App</h3>
+                        <p>Een weer-applicatie die data ophaalt van een externe API.</p>
+                        <div class="project-tags">
+                            <span class="tag">API</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <div class="project-placeholder">&#127912;</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Design</h3>
+                        <p>Een modern portfolio ontwerp gemaakt in Figma.</p>
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">UI/UX</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Bekijk</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <div class="project-placeholder">&#128075;</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Logo Ontwerp</h3>
+                        <p>Een logo en huisstijl ontwerp voor een fictief merk.</p>
+                        <div class="project-tags">
+                            <span class="tag">Illustrator</span>
+                            <span class="tag">Branding</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Bekijk</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="projects-more">
+                <a href="index.html#home" class="btn btn-primary">Terug naar home</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Ismail. Alle rechten voorbehouden.</p>
+            <a href="index.html#home">Terug naar home</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
